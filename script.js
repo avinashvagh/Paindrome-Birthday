@@ -247,10 +247,10 @@ function clickHandler() {
             // console.log("date format", frmt);
             if(ctr == 1) {
                 showOutput.style.color = "white";
-                showOutput.innerText = "Sorry, your birthday is not a palindrome" + "\n" + ` But don't worry! Your nearest palindrome date is: ${nearDate.day}-${nearDate.month}-${nearDate.year}, if you rearrange in the format: ${frmt} and you just missed it by: ${ctr} day!`;
+                showOutput.innerText = "Oops, your birthday is not a palindrome" + "\n" + ` But don't worry! Your nearest palindrome date is: ${nearDate.day}-${nearDate.month}-${nearDate.year}, if you rearrange in the format: ${frmt} and you just missed it by: ${ctr} day!`;
             } else {
                 showOutput.style.color = "white";
-                showOutput.innerText = "Sorry, your birthday is not a palindrome" + "\n" + ` But don't worry! Your nearest palindrome date is: ${nearDate.day}-${nearDate.month}-${nearDate.year}, if you rearrange in the format: ${frmt} and you just missed it by: ${ctr} days!`;
+                showOutput.innerText = "Oops, your birthday is not a palindrome" + "\n" + ` But don't worry! Your nearest palindrome date is: ${nearDate.day}-${nearDate.month}-${nearDate.year}, if you rearrange in the format: ${frmt} and you just missed it by: ${ctr} days!`;
             }
             
         }
